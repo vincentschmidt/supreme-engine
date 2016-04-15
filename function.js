@@ -29,7 +29,7 @@ $().ready(function(){
   output = '<p class="score_text">Runde: '+round_count+'</p><p class="score_text">Gefunden: '+match_count+'/8</p><p class="score_text">Spieler 1 ist am Zug</p>';
   document.getElementById('score_board').innerHTML = output;
   round_count = round_count - 1;
-  player_amount = prompt("Wie viele Spieler?", "Bitte in Zahlen!");
+  player_amount = prompt("Wie viele Spieler?",);
   $("div.memory").click(function(){
 
 
